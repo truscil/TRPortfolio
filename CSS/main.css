@@ -1,0 +1,147 @@
+/* HEADER */
+
+.header {
+	background: #040F24;
+	padding: 20px 0;
+}
+
+.header ul.nav li {
+	display: inline-block;
+}
+
+.header ul.nav a:hover {
+	background-color: transparent;
+}
+
+.header .nav {
+	float: right;
+}
+
+.name, .logo {
+	float: left;
+}
+
+.name {
+	padding-left: 10px;
+}
+
+.col-md-6 p {
+	margin-top: 10px;
+	color: #B3BFB0;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Francois One', sans-serif;
+}
+
+.col-md-6 a {
+	color: #B3BFB0;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Francois One', sans-serif;
+}
+
+.col-md-6 a:hover {
+	color: #728FA7;
+}
+
+
+
+/* INTRODUCTION */
+
+.introduction {
+	background: #040F24;
+}
+
+.introduction .container {
+	padding: 70px;
+}
+
+.introduction .statement {
+	color: #728FA7;
+	font-size: 50px;
+	font-family: 'Merriweather', serif;
+}
+
+.social-buttons {
+	font-size: 20px;
+	color: #728FA7;
+	margin-top: 20px;
+}
+
+.social-buttons a {
+	margin-right: 15px;
+	color: #B3BFB0;
+}
+
+.social-buttons a:hover {
+	color: #728FA7;
+}
+
+/* PORTFOLIO */
+
+.portfolio1 {
+	background: #B3BFB0;
+	font-family: 'Francois One', sans-serif;
+	color: #040F24;
+}
+
+.portfolio2 {
+	background: #040F24;
+	font-family: 'Francois One', sans-serif;
+	color: #B3BFB0;
+}
+
+.portfolio3 {
+	background: #B3BFB0;
+	font-family: 'Francois One', sans-serif;
+	color: #040F24;
+}
+
+
+.portfolio1 .container, .portfolio2 .container, .portfolio3 .container {
+	padding: 70px;
+}
+
+.portfolio1 .container a {
+	color: #040F24;
+	text-decoration: none;
+}
+
+.portfolio2 .container a {
+	color: #B3BFB0;
+	text-decoration: none;
+}
+
+.portfolio3 .container a {
+	color: #040F24;
+	text-decoration: none;
+}
+
+.portfolio1 h1, .portfolio2 h1, .portfolio3 h1 {
+	text-transform: uppercase;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+
+.portfolio h1 {
+	color: #040F24;
+}
+
+.pimg {
+	height: 300px;
+	color: #A57869;	
+	margin-bottom: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+	height: 200px;
+	background-color: #040F24;
+	color: #728FA7;
+}
+
+.footer .container {
+	padding: 70px;
+}
+
