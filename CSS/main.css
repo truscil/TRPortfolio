@@ -1,5 +1,9 @@
 /* HEADER */
 
+body {
+	position: relative;
+}
+
 .header {
 	background: #183670;
 	padding: 20px 0;
@@ -13,9 +17,9 @@
 	display: inline-block;
 }
 
-.header ul.nav a:hover {
+/*.header ul.nav a:hover {
 	background-color: transparent;
-}
+}*/
 
 .header .nav {
 	float: right;
@@ -44,10 +48,21 @@
 	font-family: 'Francois One', sans-serif;
 }
 
-.col-md-6 a:hover {
+
+
+.nav-pills .nav-item.show .nav-link, 
+.nav-pills .nav-link.active  {
+	background-color: #183670;
+	color: #fff;
+    }
+
+
+
+
+/*.col-md-6 a:hover {
 	color: #728FA7;
 	text-decoration: none;
-}
+}*/
 
 
 
